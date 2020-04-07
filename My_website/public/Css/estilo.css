@@ -1,0 +1,180 @@
+body{
+    background: grey ;
+    margin: 0;
+}
+
+.titulo{
+    text-decoration: none;
+    font-size: 40px;
+    color: darkblue;
+}
+
+.container{
+    width: 800px /* ou 95%*/ ;
+    margin: 0 auto;
+    background: #FFF;
+    box-shadow: 0px 2px 10px 5px;
+}
+
+.cabecario{
+    padding: 45px 0 20px 40px;
+    border: 2px solid #444444;
+    background-color: #6d6d;
+    
+}
+
+.Menu{
+        background-color: green;
+        padding: 6px 0 6px 40px;
+        
+    
+}
+
+.Menu a {
+     color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: fantasy ;
+/*    font-family: "Arial Narrow ", "Myriad Pro";*/
+}
+
+
+.Menu a:hover {
+    color: aqua;
+}
+
+aside{
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px ;
+    
+}
+
+h1{
+    margin: 0px;
+    color: blue;
+    font-size: 24px;
+    font-family: "Arial Narrow","Myriad Pro";
+    font-weight: normal;
+    
+}
+
+h2{
+    color: orangered;
+    font-size: 20px;
+    margin: 20px 0 5px 0;
+}
+
+.main{
+    margin: 0 0 0 180px ;
+    padding: 34px 40px 30px 0;
+    color: #444;
+    font-family: "Georgia";
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: justify /* significa o mesmo dos dois lados*/;
+}
+
+.main a:hover {
+    color: #444;
+}
+
+footer{
+    padding: 6px 40px 6px 40px;
+    background: #6d6d;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-decoration: right;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: green;
+}
+
+.separar{
+    color:white;
+    font-size: 11px;
+}
+
+#home-image img{
+            
+      width: 100%;  
+    
+    /*background-image: url(/pic/home-page-image.jpg);
+    width: 500px; height: 300px;
+    */
+}
+
+
+/******* Pagina do sobre *******/
+
+
+#sobre #home-image img{
+    
+    width: 50%;
+/*    padding: 20px 0 20px 0;*/
+    float: left;
+        margin-bottom: 25px;
+}
+
+#sobre #perfil-info{
+    float: right;
+    width: 50%;
+    margin: 5px;
+    
+    
+}
+
+#sobre .corpo{
+    clear: both;
+    margin-left: 5%;
+}
+
+/*********** Contacto ***********/
+
+#contacto #form{
+    
+    width: 550px;
+/*    border: 2px solid black;*/
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 10px 5px;
+    border-radius: 10px;
+}
+
+#contacto .head{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#contacto #form input { 
+    width: 100%;
+    border-radius: 5px;
+    height: 21px;
+    background: #7ae27a;
+    
+    
+}
+
+#contacto #form #mensagem{
+    width: 100%;
+    border-radius: 5px;
+    background: #7ae27a;
+    
+}
+
+/*
+#contacto #form #submit:hover{
+    color: aqua;
+}
+*/
+
+#contacto #form #submit{
+        height: 30px;
+    background: green;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+}
